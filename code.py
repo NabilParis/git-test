@@ -1,4 +1,4 @@
-from datetime import datetime
+from module import obtenir_temps
 
-print("hello ! Il est {}.".format(datetime.now().strftime(%H:%M:%S)))
+print(obtenir_temps())
 
